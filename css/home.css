@@ -1,0 +1,327 @@
+body{
+	background-image: none;
+	background-color: #fff;
+	font-family: 'Gothic A1', sans-serif;
+	overflow-x: hidden;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	color: #5d5d5d;
+	border-bottom: 3px solid #d8262c;
+}
+
+
+
+p{
+	font-family: 'Raleway', sans-serif;
+}
+h3{
+	color: #5d5d5d;
+}
+
+#scroll-top{
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  background: #d8262c;
+  text-align: center;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  z-index: 55555555;
+  display: none; /* 3shan hzhro b jquery */
+  border-radius: 5px;
+  font-size: 15px;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: all 0.2s ease 0s;
+ }
+ #scroll-top:hover{
+  cursor: pointer;
+  background: #fff;
+  color: #d8262c;
+ }
+
+/**************************************/
+.header img{
+	padding-top: 95px;
+}
+.header-txt{
+	padding-top: 300px;
+}
+.header span{
+	color: #d8262c;
+}
+.header h3{
+	width: 554px;
+  height: 150px;
+  font-size: 40px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+}
+.btn-danger{
+	margin-top: 30px;
+	width: 250px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #d8262c;
+  transition: all 1s;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+}
+.btn-danger:hover{
+	background-color: #fff;
+	color: #d8262c;
+	border-color: #d8262c;
+}
+
+
+/******************************/
+.discover{
+	padding-top: 240px;
+}
+.discover .discover-head h3{
+  font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  color: #5d5d5d;
+  margin-bottom: 10px;
+}
+.discover .discover-head p{
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: center;
+  color: #5d5d5d;
+  padding-bottom: 100px;
+}
+
+.discover .discover-txt h3{
+	font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5d5d5d;
+  padding-top: 180px;
+}
+.discover .discover-txt p{
+	font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5d5d5d;
+  padding-top: 20px;
+}
+
+
+/*********************************/
+.destination .destination-txt h3{
+	font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5d5d5d;
+  padding-top: 360px;
+}
+.destination .destination-txt p{
+	font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5d5d5d;
+  padding-top: 20px;
+}
+.destination img{
+	padding-top: 200px;
+}
+
+/**************************************/
+.answers img{
+	padding-top: 200px;
+	padding-bottom: 205px;
+}
+.answers .answers-txt h3{
+	padding-top: 300px;
+	font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5d5d5d;
+}
+.answers .answers-txt p{
+	font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5d5d5d;
+  padding-top: 10px;
+}
+.answers .answers-btn{
+	margin-top: 10px;
+}
+
+/*********************** RESPONSIVE **********************/
+@media (max-width: 1024px){
+	.header h3{
+		font-size: 32px;
+		height: auto;
+		width: unset;
+	}
+	.header-txt {
+    padding-top: 170px;
+    }
+    .discover .discover-txt h3{
+    	padding-top: 122px;
+    	font-size: 23px;
+    }
+    .discover .discover-txt p{
+    	font-size: 13px;
+    }
+     .destination .destination-txt h3{
+    	padding-top: 345px;
+    	font-size: 23px;
+    }
+    .destination .destination-txt p{
+    	font-size: 12px;
+    }
+    .answers .answers-txt h3{
+    	font-size: 23px;
+    	padding-top: 310px;
+    }
+    .answers .answers-txt p{
+    	font-size: 14px;
+    }
+}
+@media (max-width: 768px){
+	.header h3{
+		font-size: 24px;
+		width: unset;
+	}
+	.discover .discover-txt h3{
+		padding-top: 90px;
+	}
+	.discover {
+        padding-top: 160px;
+    }
+	.discover .discover-head h3{
+		font-size: 28px;
+	}
+	.discover .discover-head p{
+		font-size: 15px;
+	}
+	.destination .destination-txt h3{
+		padding-top: 145px;
+	}
+	.destination img{
+		padding-top: 50px;
+	}
+	.answers img{
+		padding-top: 125px;
+		padding-bottom: 0;
+	}
+	.answers .answers-txt h3{
+		font-size: 18px;
+        padding-top: 177px;
+	}
+	.answers .answers-btn{
+		margin-bottom: 160px;
+	}
+}
+@media (max-width: 700px){
+	.header h3{
+		font-size: 24px;
+		width: unset;
+	}
+	.discover {
+        padding-top: 160px;
+    }
+	.btn-danger{
+		margin-top: 0;
+	}
+	.discover .discover-head h3{
+		font-size: 28px;
+	}
+	.discover .discover-head p{
+		font-size: 15px;
+	}
+	.destination .destination-txt h3{
+		padding-top: 160px;
+	}
+	.destination img{
+		padding-top: 50px;
+	}
+	.answers img{
+		padding-top: 125px;
+		padding-bottom: 0;
+	}
+	.answers .answers-txt h3{
+		font-size: 22px;
+        padding-top: 60px;
+	}
+	.answers .answers-btn{
+		margin-bottom: 70px;
+	}
+}
+@media (max-width: 414px){
+	.header h3{
+		font-size: 20px;
+		height: 125px;
+	}
+	.discover .discover-head h3{
+		font-size: 24px;
+	}
+	.discover .discover-head p{
+		font-size: 11px;
+		padding-bottom: 80px;
+	}
+	.discover .discover-txt h3{
+		font-size: 20px;
+	}
+	.discover .discover-txt p{
+		font-size: 12px;
+	}
+	.destination .destination-txt h3{
+		font-size: 20px;
+		padding-top: 130px;
+	}
+	.answers .answers-txt h3{
+		font-size: 20px;
+	}
+	.answers .answers-txt p{
+		font-size: 12px;
+	}
+}
